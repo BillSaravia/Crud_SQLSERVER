@@ -14,6 +14,8 @@ CREATE TABLE products (
 
 -- EXEC sp_columns 'products';
 
+INSERT INTO products (name, price, quantity, description) VALUES ('tablet', 'gaming', 10, 100)
+
 
 -- SELECT TOP(500) * FROM [preuba].[dbo].[Products];
 
